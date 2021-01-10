@@ -1,0 +1,59 @@
+<html>
+
+    <head>
+        <title>Bootstrap Grid</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <style>
+        .boxy {
+            background: lightblue;
+            border: 2px solid black;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 boxy"> COL Large 4</div>
+                <div class="col-lg-4 boxy"> COL Large 4</div>
+                <div class="col-lg-4 boxy"> COL Large 4</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 boxy"> COL Medium 6</div>
+                <div class="col-md-6 boxy"> COL Medium 6</div>
+            </div>
+        </div>
+        <!-- Breakpoint. THe xs will still maintained until the smallest screen size.
+        <div class="container">
+            <div class="row">
+                <div class="col-xs boxy"> COL XS 6</div>
+                <div class="col-xs boxy"> COL XS 6</div>
+            </div>
+        </div> -->
+             <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 boxy"> ONE</div>
+                <div class="col-lg-3 col-sm-6 boxy"> TWO</div>
+                <div class="col-lg-3 col-sm-6 boxy"> THREE</div>
+                <div class="col-lg-3 col-sm-6 boxy"> FOUR</div>
+            </div>
+            <!-- On a large screen it will each will take size 3. On small, it will take 6
+                and on further small, it will eventuall take one. -->
+            <div class="row">
+                <div class="col-lg-6 boxy">
+                    <div class="row">
+                        <div class="col-lg-6 boxy"> Inside first row</div>
+                        <div class="col-lg-6 boxy"> Inside first row</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 boxy"> TOP LEVEL</div>
+            </div>
+            <!-- Nested divs to make columns more than 12. -->
+
+
+    </body>
+
+</html>
